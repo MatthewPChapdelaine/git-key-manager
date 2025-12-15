@@ -1,0 +1,9 @@
+git-key-manager (1.0.0) unstable; urgency=low
+
+  * Initial release
+  * System tray integration
+  * Multiple key support
+  * Visual status indicator
+  * GitHub connection testing
+
+ -- Your Name <your.email@example.com>  Mon, 15 Dec 2025 10:27:02 -0500

@@ -1,0 +1,7 @@
+#!/bin/bash
+set -e
+
+# Kill any running instances
+pkill -f git-key-manager || true
+
+exit 0

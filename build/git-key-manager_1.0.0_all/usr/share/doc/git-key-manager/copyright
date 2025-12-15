@@ -1,0 +1,7 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: git-key-manager
+Source: https://github.com/yourusername/git-key-manager
+
+Files: *
+Copyright: 2024 Your Name
+License: MIT

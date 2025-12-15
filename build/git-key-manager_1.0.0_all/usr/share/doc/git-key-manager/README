@@ -1,0 +1,25 @@
+Git Key Manager
+===============
+
+A system tray application for managing SSH keys for Git operations.
+
+Features:
+- Visual indicator (green = keys loaded, red = no keys)
+- Easy key loading with one click
+- Support for multiple SSH keys
+- GitHub connection testing
+- System tray integration
+
+Usage:
+1. Click the system tray icon to open the manager
+2. Add your SSH keys (usually in ~/.ssh/)
+3. Click on a key name to load it
+4. Green indicator = ready to push/pull without credentials
+5. Red indicator = no key loaded
+
+The application will ensure ssh-agent is running and manage your keys
+automatically. As long as the indicator is green, you won't need to
+enter credentials for Git operations.
+
+Support:
+For issues or questions, visit: https://github.com/yourusername/git-key-manager

@@ -1,0 +1,18 @@
+Package: git-key-manager
+Version: 1.0.0
+Section: utils
+Priority: optional
+Architecture: all
+Depends: python3, python3-pyqt5, openssh-client
+Maintainer: Your Name <your.email@example.com>
+Description: Git SSH Key Manager with Visual Indicator
+ Git Key Manager provides easy SSH key management for GitHub
+ and other Git services with a visual indicator showing when
+ keys are loaded. Features include:
+ .
+  - System tray integration
+  - Visual key status indicator (green = loaded, red = not loaded)
+  - Support for multiple SSH keys
+  - One-click key loading
+  - GitHub connection testing
+  - Auto-start support

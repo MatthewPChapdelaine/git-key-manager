@@ -1,0 +1,20 @@
+#!/bin/bash
+set -e
+
+# Ensure ssh-agent is available
+if ! command -v ssh-agent &> /dev/null; then
+    echo "Warning: ssh-agent not found. Please install openssh-client."
+fi
+
+# Set permissions
+chmod +x /usr/bin/git-key-manager
+
+echo ""
+echo "Git Key Manager installed successfully!"
+echo "Run 'git-key-manager' to start, or find it in your applications menu."
+echo ""
+echo "To start automatically at login, enable it in your desktop environment's"
+echo "startup applications settings."
+echo ""
+
+exit 0
